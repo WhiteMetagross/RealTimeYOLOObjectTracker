@@ -114,14 +114,17 @@ Follow these steps to set up and run the project.
     python laptop_server.py
     ```
 
-    The server will print the IP address it's listening on (e.g., `Server listening on 123.456.78.90:9999`). Ensure your laptop's firewall allows incoming connections on port `9999`.
+    The server will print the IP address it's listening on (like `Server listening on 123.456.78.90:9999`). Ensure your laptop's firewall allows incoming connections on port `9999`.
 
 2.  **Start the Phone Client**:
     On your Android phone, open `phone_client.py` in Pydroid 3 and press the large yellow "Play" button at the bottom right to run the program.
     The application will attempt to connect to the server and, once connected, will display the live camera feed with object tracking overlays.
 
 3.  **Network Configuration**:
-    Ensure both your laptop and phone are on the same WiFi network for communication.
+    Ensure both your laptop and phone are on the same WiFi network for communication.\
+    
+![The powershell logs](./images/image1.png)
+_The terminal logs of the running laptop server._
 
 ## Understanding the On-Screen Display (Client)
 
