@@ -148,5 +148,5 @@ The application provides information overlaid on the video feed displayed on the
       * Ensure adequate resources (especially the GPU memory) on the laptop for the YOLO and ReID models.
   * **Low Performance**:
       * For the server, a powerful GPU is crucial for real time performance.
-      * Adjust JPEG `encode_param` quality (e.g., 85) in `phone_client.py` to balance visual quality and bandwidth usage.
+      * Adjust JPEG `encode_param` quality (like 85) in `phone_client.py` to balance visual quality and bandwidth usage.
       * Lower `CAP_PROP_FRAME_WIDTH` and `CAP_PROP_FRAME_HEIGHT` in `phone_client.py` to reduce the resolution and frame rate of the streamed video.
