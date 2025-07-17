@@ -75,8 +75,8 @@ Follow these steps to set up and run the project.
 2.  **Clone the repository**:
 
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone https://github.com/WhiteMetagross/RealTimeYOLOObjectTracker
+    cd RealTimeYOLOObjectTracker
     ```
 
 3.  **Install dependencies**:
