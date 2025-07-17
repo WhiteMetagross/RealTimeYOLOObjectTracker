@@ -132,7 +132,7 @@ The application provides information overlaid on the video feed displayed on the
       * **ID:{id}**: The unique tracking ID assigned by the ReID tracker.
       * **{class\_name}**: The class of the object detected by YOLOv11.
       * **{conf:.2f}**: The detection confidence score from YOLO, ranging from 0.0 to 1.0.
-  * **Status Label**: A status line at the top of the phone screen provides connection status and activity messages (e.g., "Connecting to laptop server...", "Streaming...").
+  * **Status Label**: A status line at the top of the phone screen provides connection status and activity messages (like "Connecting to laptop server...", "Streaming...").
 
 ## Troubleshooting
 
@@ -145,7 +145,7 @@ The application provides information overlaid on the video feed displayed on the
       * If the server fails to start with a `FileNotFoundError`, ensure the `osnet_ain_x1_0_imagenet.pth` file is in the correct directory.
   * **Frame Processing Errors**:
       * If the display on the phone freezes or shows errors, check the server's console for messages.
-      * Ensure adequate resources (especially GPU memory) on the laptop for the YOLO and ReID models.
+      * Ensure adequate resources (especially the GPU memory) on the laptop for the YOLO and ReID models.
   * **Low Performance**:
       * For the server, a powerful GPU is crucial for real time performance.
       * Adjust JPEG `encode_param` quality (e.g., 85) in `phone_client.py` to balance visual quality and bandwidth usage.
