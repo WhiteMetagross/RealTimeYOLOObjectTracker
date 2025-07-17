@@ -121,10 +121,12 @@ Follow these steps to set up and run the project.
     The application will attempt to connect to the server and, once connected, will display the live camera feed with object tracking overlays.
 
 3.  **Network Configuration**:
-    Ensure both your laptop and phone are on the same WiFi network for communication.\
+    Ensure both your laptop and phone are on the same WiFi network for communication.
+    
     
 ![The powershell logs](./images/image1.png)
 _The terminal logs of the running laptop server._
+
 
 ## Understanding the On-Screen Display (Client)
 
