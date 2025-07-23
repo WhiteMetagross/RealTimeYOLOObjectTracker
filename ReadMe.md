@@ -124,7 +124,7 @@ Follow these steps to set up and run the project.
     Ensure both your laptop and phone are on the same WiFi network for communication.
     
     
-![The powershell logs](./images/image1.png)
+![The powershell logs](./visuals/image1.png)
 _The terminal logs of the running laptop server._
 
 
@@ -138,6 +138,9 @@ The application provides information overlaid on the video feed displayed on the
       * **{class\_name}**: The class of the object detected by YOLOv11.
       * **{conf:.2f}**: The detection confidence score from YOLO, ranging from 0.0 to 1.0.
   * **Status Label**: A status line at the top of the phone screen provides connection status and activity messages (like "Connecting to laptop server...", "Streaming...").
+
+![The powershell logs](./visuals/RealTimeYOLOObjectDetector.mp4")
+_The phone screen recordings of the running phone client._
 
 ## Troubleshooting
 
