@@ -139,7 +139,7 @@ The application provides information overlaid on the video feed displayed on the
       * **{conf:.2f}**: The detection confidence score from YOLO, ranging from 0.0 to 1.0.
   * **Status Label**: A status line at the top of the phone screen provides connection status and activity messages (like "Connecting to laptop server...", "Streaming...").
 
-![The powershell logs](./visuals/RealTimeYOLOObjectDetector.gif)
+![The powershell logs](./visuals/RealTimeYOLOObjectDetector.mp4)
 _The phone screen recordings of the running phone client._
 
 ## Troubleshooting
